@@ -7,7 +7,7 @@ selectView('auth');
 
 gapi.load("client:auth2", function() {
 	gapi.auth2.init({
-		client_id: "384940529955-dohqi8t2hg6gdf9gspvj6q858khq0gaf.apps.googleusercontent.com"
+		client_id: "384940529955-beh379sk7u8g0plbqv7njpdfcj7rm87g.apps.googleusercontent.com"
 	});
 });
 		
@@ -31,7 +31,7 @@ function authenticate() {
 }
 
 function loadClient() {
-	gapi.client.setApiKey("AIzaSyDvJD5zHmTSW6XDIC3RVz83YDK-DEMSur4");
+	gapi.client.setApiKey("AIzaSyCxQFmiQK8ktCQajO-uNCl-rWOfMos6OgY");
 	return gapi.client.load("https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest")
 		.then(function() { 
 			console.log("GAPI client loaded for API"); 
